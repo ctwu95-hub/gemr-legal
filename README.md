@@ -18,12 +18,12 @@ Static pages for the App Store submission: Privacy Policy, Terms of Use (EULA), 
 4. Under **Build and deployment → Source**, choose **Deploy from a branch**. Set **Branch = `main`**, **Folder = `/ (root)`**, then **Save**.
 5. Wait ~1 minute, then reload the Pages settings screen — it will show **"Your site is live at …"**.
 
-### Your URLs (username `ctwu95`, repo `gemr-legal`)
+### Your URLs (username `ctwu95-hub`, repo `gemr-legal`)
 
-- Home: `https://ctwu95.github.io/gemr-legal/`
-- **Privacy Policy:** `https://ctwu95.github.io/gemr-legal/privacy.html`
-- **Terms of Use (EULA):** `https://ctwu95.github.io/gemr-legal/terms.html`
-- **Support:** `https://ctwu95.github.io/gemr-legal/support.html`
+- Home: `https://ctwu95-hub.github.io/gemr-legal/`
+- **Privacy Policy:** `https://ctwu95-hub.github.io/gemr-legal/privacy.html`
+- **Terms of Use (EULA):** `https://ctwu95-hub.github.io/gemr-legal/terms.html`
+- **Support:** `https://ctwu95-hub.github.io/gemr-legal/support.html`
 
 > If you use a different repo or username, adjust the URLs to match — and tell me, because the same two URLs are hard-coded into the app's paywall (`PaywallView.termsURL` / `PaywallView.privacyURL`). They must match exactly.
 
@@ -35,7 +35,7 @@ git init
 git add .
 git commit -m "Gemr legal & support pages"
 git branch -M main
-git remote add origin https://github.com/ctwu95/gemr-legal.git
+git remote add origin https://github.com/ctwu95-hub/gemr-legal.git
 git push -u origin main
 # then enable Pages in Settings → Pages as in step 3–4 above
 ```
